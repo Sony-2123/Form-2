@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Application Form</title>
+</head>
+<body>
+
+<center>
+  <h1>Job Application Form</h1>
+</center>
+
+<form>
+  <label>Full Name:</label>
+  <input type="text" name="fullname"><br><br>
+
+  <label>Father's Name:</label>
+  <input type="text" name="fathername"><br><br>
+
+  <label>Mother's Name:</label>
+  <input type="text" name="mothername"><br><br>
+
+  <label>Email:</label>
+  <input type="email" name="email"><br><br>
+
+  <label>Phone Number:</label>
+  <input type="tel" name="phone"><br><br>
+
+  <label>LinkedIn Profile URL:</label>
+  <input type="url" name="linkedin"><br><br>
+
+  <label>GitHub Profile URL:</label>
+  <input type="url" name="github"><br><br>
+
+  <label>Gender:</label><br>
+  <input type="radio" name="gender" value="Male"> Male<br>
+  <input type="radio" name="gender" value="Female"> Female<br>
+  <input type="radio" name="gender" value="Other"> Other<br><br>
+
+  <label>Experience:</label><br>
+  <select name="experience">
+    <option value="fresher">Fresher</option>
+    <option value="1year">1 Year</option>
+    <option value="2years">2 Years</option>
+    <option value="3years">3+ Years</option>
+  </select><br><br>
+
+  <label>Highest Qualification:</label>
+  <input type="text" name="qualification" placeholder="e.g., B.Tech, M.Sc"><br><br>
+
+  <label>Preferred Work Location:</label>
+  <input type="text" name="location"><br><br>
+
+  <label>Are you willing to work voluntarily?</label><br>
+  <input type="radio" name="volunteer" value="Yes"> Yes<br>
+  <input type="radio" name="volunteer" value="No"> No<br><br>
+
+  <label>Address:</label><br>
+  <textarea name="address" rows="3" cols="40"></textarea><br><br>
+
+  <label>Why do you want this job?</label><br>
+  <textarea name="reason" rows="4" cols="40"></textarea><br><br>
+
+  <label>Upload Your Resume (Optional):</label><br>
+  <input type="file" name="resume"><br><br>
+
+  <button type="submit">Submit Application</button>
+</form>
+
+</body>
+</html>
